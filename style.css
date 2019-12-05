@@ -9,3 +9,11 @@ body{
 	overflow: hidden;
 	margin: 0;
 }
+
+.oui{
+	background-color: red;
+	height: 3%;
+	width: 3%;
+	position: absolute;
+	top: 10%;
+}
