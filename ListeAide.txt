@@ -1,0 +1,30 @@
+
+=Bourse sur Critères Sociaux (BCS):
+	>La bourse d'enseignement supérieur sur critères sociaux (BCS) est accordée à l'étudiant qui a des difficultés matérielles pour poursuivre des études supérieures. Elle complète l'aide de la famille et ne remplace pas l'obligation alimentaire à la charge des parents.
+	-Avoir moins de 28 ans
+	-Être titulaire du BAC
+	-Basé sur les revenus du demandeur
+		Echelon 0 bis : 100,90 €/mois.
+		1er échelon : 166,90 €/mois.
+		2e échelon : 251,30 €/mois.
+		3e échelon : 321,80 €/mois.
+		4e échelon : 392,40 €/mois.
+		5e échelon : 450,50 €/mois.
+		6e échelon : 477,80 €/mois.
+		7e échelon : 555,10 €/mois.
+
+=Bourse Formations Sanitaires et Sociales (BFSS):
+
+=Aide Spécifique Annuelle (ASAA):
+
+=Aide Spécifique Ponctuelle (ASAP):
+
+=Fond d’Aide d’Urgence (FAU):
+
+=FSDIE Social:
+
+=Aide à la mobilité PARCOURSUP:
+
+=Subvention 300€ Rentrée:
+
+=APL:
