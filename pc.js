@@ -4,7 +4,7 @@ class PC{
     	'<div class="screen">'+
     			'<div class="ligne un">'+
     				'<div class="case">'+
-
+            
     				'</div>'+
     				'<div class="case">'+
 
