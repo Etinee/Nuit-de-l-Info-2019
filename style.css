@@ -28,3 +28,24 @@ body{
 	position: absolute;
 	top : 70%;
 }
+
+#mur_fond{
+	background-color: #864C24;
+	height:30%;
+	width: 100%;
+	position: absolute;
+	top : 0;
+}
+
+#porte_close{
+	position: relative;
+	width: 10%;
+	left: 40%;
+	top: 8%;
+}
+#porte_open{
+	position: relative;
+	width: 15%;
+	left: 35%;
+	top: 8%;
+}
