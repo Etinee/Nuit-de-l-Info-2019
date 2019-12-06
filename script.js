@@ -11,7 +11,7 @@ $( document ).ready(function() {
         $("#porte_open").attr("hidden",false);
         var timeoutID = setTimeout(closeDore, 1000);
         $("#personne").attr("hidden",false);
-        $("#personne").attr("src",);
+        $("#personne").attr("src","characters/");
     });
 
 });
