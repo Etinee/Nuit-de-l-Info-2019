@@ -5,16 +5,23 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
 		<script type="text/javascript" src="data.js"></script>
+		<script type="text/javascript" src="yes_no.js"></script>
 	</head>
 <body>
 	<button id="btn_exemple">
 		Exemple
 	</button>
 	<div id="exemple">
-		
+		<script>
+			let oui = new Yes_no();
+
+			$("#btn_exemple").click(function(){
+			  oui.affichage(true);
+			});
+		</script>
 	</div>
 	<div class="oui">
 		aaa
 	</div>
-	
+
 </body>
