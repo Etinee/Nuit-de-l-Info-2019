@@ -11,10 +11,10 @@ body{
 	padding: 0;
 }
 
-.oui{
-	background-color: red;
-	height: 3%;
-	width: 3%;
+.bureau{
+	background-color: #864C24;
+	height:30%;
+	width: 100%;
 	position: absolute;
-	top: 10%;
+	top : 70%;
 }
