@@ -65,6 +65,10 @@ body{
 	margin-bottom: 10px;
 }
 
+#profile{
+	width: 15%;
+}
+
 #formulaire{
 	background-color : #222D32;
 	border: 1px solid black
