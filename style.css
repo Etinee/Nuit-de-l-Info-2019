@@ -75,7 +75,6 @@ body{
 	width: 20%;
 	margin-right: 16px;
 	margin-bottom: 10px;
-<<<<<<< HEAD
 	object-fit: cover;
 }
 figure{
@@ -87,9 +86,6 @@ figure{
 figure img{
    display:block; /*remove inline-block spaces*/
    width:100%; /*make image streatch*/
-=======
-	border: 3px solid black;
->>>>>>> 862574b033147f0dcf21631ded2f8db155232bc4
 }
 #profile{
 	width: 15%;
