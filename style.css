@@ -47,10 +47,13 @@ body{
 	top: 8%;
 }
 
-
 #ID_card{
-	display: flex;
-	flex-direction: row;
+	background-color : #222D32;
+	border: 1px solid black
+	width:15%;
+	height:30%;
+	padding : 10px;
+	border-radius:15px;
 }
 
 #profile{
