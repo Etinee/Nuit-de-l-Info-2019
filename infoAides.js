@@ -76,4 +76,4 @@ var aides =
 	}
 };
 
-console.log(aides[0]["echelon"][15][40000]);
+console.log(aides[0].echelon[15][4]);
