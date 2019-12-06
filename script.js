@@ -64,5 +64,25 @@ $( document ).ready(function() {
         personne.attr("src","characters/random"+characterID+".png");
         intervalPerso = setInterval(avancer, 50, personne);
     });
+    var slideIsSlide = false;
+    $("#slide").click(function(){
+        if(slideIsSlide != true){
+            slideIsSlide = true;
+           console.log("Click")
+           $( "#Yes_no" ).animate({
+            left:"-=360"
+            }, 500, "linear", function() {
+            });
+       }
+       else{
+         slideIsSlide = false;
+           console.log("Click")
+           $( "#Yes_no" ).animate({
+            left:"+=360"
+            }, 500, "linear", function() {
+            });
+       }
+       
+   });
 });
 
