@@ -198,36 +198,6 @@ Nom = [
 "Chaloux", 
 "de Brisay"];
 
-<<<<<<< HEAD
-Profession= [
-"Chômeur", 
-"Etudiant en Informatique", 
-"Etudiant en Droit", 
-"Etudiant en Chimie", 
-"Etudiant en GEA", 
-"Etudiant en Biologie", 
-"Etudiant en Génie civile", 
-"Etudiant en PACES", 
-"Etudiant en Génie electrique", 
-"Etudiant en Medecine", 
-"Etudiant Sage femme", 
-"Etudiant Infirmier", 
-"Etudiant en Pharmacie", 
-"Etudiant en Kiné", 
-"Etudiant en Psychologie", 
-"Etudiant en Lettre", 
-"Etudiant Science politique", 
-"Etudiant en Géographie", 
-"Etudiant en Architecture", 
-"Etudiant en Alternance", 
-"Année de césure", 
-"Erasmus",
-"Salarié", 
-"Cadre", 
-"Auto-entrepreneur", 
-"Reprise d'étude",
-"Mi-temps"];
-=======
 Profession= {
 1 : "Chômeur", 
 2 : "Etudiant en Informatique", 
@@ -256,7 +226,6 @@ Profession= {
 25 : "Auto-entrepreneur", 
 26 : "Reprise d'étude",
 27 : "Mi-temps"};
->>>>>>> 3845e9643100d91886d33cb8045f2ecc3cbf0c0b
 
 Situation = [
 "Marié", 
@@ -270,8 +239,6 @@ Situation = [
 //Revenu Etudiant 0-00
 //Revenu Parent 000-000
 
-<<<<<<< HEAD
-=======
 Bac = [
 true,
 false];
@@ -294,4 +261,3 @@ Nationalité = [
 "Grec",
 "Irelandais"
 ];
->>>>>>> 862574b033147f0dcf21631ded2f8db155232bc4
