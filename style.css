@@ -42,6 +42,13 @@ body{
 	margin: 2%;
 	width: 100%;
 	text-align: center;
+	overflow: hidden;
+}
+
+.block_pub a img{
+	display: block;
+	width: 100%;
+
 }
 
 #block_porte{
