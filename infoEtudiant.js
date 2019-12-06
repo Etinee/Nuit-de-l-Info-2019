@@ -238,13 +238,3 @@ Situation = {
 //Revenu Etudiant 0-500
 //Revenu Parent 1000-8000
 
-Bac = {
-1 : true,
-2 : false};
-
-//point de charge 0-17
-
-Status = {
-1 : "autonome",
-2 : "à charge"
-};

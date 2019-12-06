@@ -60,20 +60,29 @@ body{
 	height:30%;
 	padding : 10px;
 	border-radius:15px;
-	display: flex;
 	flex-direction: row;
 	max-width: 18%;
 	top: 100px;
 	left: 150px;
-	z-index: 2
+	z-index: 2;
 }
 
 #profile{
 	width: 20%;
 	margin-right: 16px;
 	margin-bottom: 10px;
+	object-fit: cover;
 }
-
+figure{
+   height:50%; /*container-width*/
+   width: 20%;
+   overflow:hidden; /*hide bounds of image */
+   margin:0;   /*reset margin of figure tag*/
+}
+figure img{
+   display:block; /*remove inline-block spaces*/
+   width:100%; /*make image streatch*/
+}
 #profile{
 	width: 15%;
 }
@@ -86,3 +95,5 @@ body{
 	padding : 10px;
 	border-radius:15px;
 }
+
+

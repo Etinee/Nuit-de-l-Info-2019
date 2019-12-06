@@ -3,13 +3,12 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" href="customJquery/jquery-ui.min.css">
 		<script src="customJquery/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
 		<script type="text/javascript" src="infoAides.js"></script>
 		<script type="text/javascript" src="script.js"></script>
-		<script type="text/javascript" src="infoAides.js"></script>
+		<script type="text/javascript" src="infoEtudiant.js"></script>
 		<script type="text/javascript" src="yes_no.js"></script>
 	</head>
 
@@ -20,19 +19,21 @@
 	</div>
 		<img id=personne hidden>
 	<div id="bureau">
-		<div id="ID_card" class="draggable">
-			<img src="sprite/close_door.png" id="profile">
+		<div id="ID_card" class="draggable" hidden>
+			<figure>
+				<img src="sprite/close_door.png" id="id_photo">
+			</figure>
 			<div>
-				Nom : Verhille<br>
-				Prénom : Thomas<br>
-				Date naissance :<br> 20/02/2000
+				Nom : <span id="name"></span><br>
+				Prénom : <span id="lastName"></span><br>
+				Date naissance :<br> <span id="birthday"></span>
 			</div>
 		</div>
 
-		<div id="formulaire" class="draggable">
-			Revenus : 5k/mois</br>
-			Âge : 22 ans</br>
-			Enfants à charge : 6
+		<div id="formulaire" class="draggable" hidden>
+			Revenus : <span id="salary"></span>/mois</br>
+			Âge : <span id="age"></span> ans</br>
+			Enfants à charge : <span id="nbchild"></span>
 		</div>
 	</div>
 </body>
