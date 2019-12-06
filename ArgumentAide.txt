@@ -54,4 +54,7 @@ Argument = {
 "53" : "Grace aux aides, je vais pouvoir m'acheter un carton de meilleur qualité.",
 "54" : "Tu crois tu me fait peur?",
 "55" : "Je connais le directeur de l'établissement.",
-"56" : "Je suis malade..."}
+"56" : "Je suis malade...",
+"57" : "Je vais vous coller un procés au cul si vous ne m'accordez rien.",
+"58" : "Comment je vais au afterwork si j'ai pas d'argent?",
+"59" : "Bonjour! Je suis gentil et j'aime l'argent."}
