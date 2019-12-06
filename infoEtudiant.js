@@ -212,7 +212,7 @@ Profession= {
 11 : "Etudiant Sage femme", 
 12 : "Etudiant Infirmier", 
 13 : "Etudiant en Pharmacie", 
-14 : "Etudiant en Kiné", 
+14 : "Etudiant en Kinéssithérapie", 
 15 : "Etudiant en Psychologie", 
 16 : "Etudiant en Lettre", 
 17 : "Etudiant Science politique", 
