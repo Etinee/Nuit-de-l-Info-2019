@@ -33,6 +33,15 @@ body{
 	width: 100%;
 	position: absolute;
 	top : 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.block_pub{
+	margin: 2%;
+	width: 100%;
+	text-align: center;
 }
 
 #block_porte{
