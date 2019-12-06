@@ -30,13 +30,37 @@ var aides =
 		"desc":"L’Aide Spécifique Annuelle est une aide financière accordée aux étudiants qui doivent faire face à des difficultés spécifiques durables et qui ne peuvent prétendre à l’attribution d’une  bourse de l’enseignement supérieur.\n-Pas de soutien matériel des parents\n-Salarié avec revenus annuels au moins égal à 3 SMIC",
 		"age_max":35,
 		"bac":true,
-		"status":"autonome"
+		"status":"autonome",
+		// et-ou
+		"profession":["Salarié","Cadre","Auto-entrepreneur","Etudiant en Alternance"],// sinon tout
+		// et
+		"revenus_min":250
 	},
 	2:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
+		"acro":"ASAP",
+		"desc":"Les Aides Spécifiques sont destinées à apporter une aide à l’étudiant qui rencontre des difficultés financières particulières.\nElle peut revêtir deux formes :\nsoit une aide ponctuelle pour des difficultés exceptionnelles et passagères,\nsoit une aide annuelle en cas de difficultés pérennes.\n-",
+		"age_max":35,
+		"bac":true,
+		"profession":["Etudiant en Informatique","Etudiant en Droit","Etudiant en Chimie","Etudiant en GEA","Etudiant en Biologie","Etudiant en Génie civile","Etudiant en PACES","Etudiant en Génie electrique","Etudiant en Medecine","Etudiant Sage femme","Etudiant Infirmier","Etudiant en Pharmacie","Etudiant en Kiné","Etudiant en Psychologie","Etudiant en Lettre","Etudiant Science politique","Etudiant en Géographie","Etudiant en Architecture","Etudiant en Alternance","Année de césure","Erasmus","Mi-temps"],
+		"echelon":[[33100,22500],		//[points de charge][echelon]
+				   [36760,25000],		//					  ^^^
+				   [40450,27500],		//				chercher revenu
+				   [44120,30000],
+				   [47800,32500],
+				   [51480,35010],
+				   [55150,37510],
+				   [58830,40010],
+				   [62510,42510],
+				   [66180,45000],
+				   [69860,47510],
+				   [73540,50010],
+				   [77210,52500],
+				   [80890,55000],
+				   [84560,57520],
+				   [88250,60010],
+				   [91920,62510],
+				   [95610,65010]],
+		"bourse":[100.90,166.90]		//[echelon]
 	},
 	3:{
 		"acro":"",

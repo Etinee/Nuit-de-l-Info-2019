@@ -220,11 +220,12 @@ Profession= {
 19 : "Etudiant en Architecture", 
 20 : "Etudiant en Alternance", 
 21 : "Année de césure", 
-22 : "Erasmus", 
+22 : "Erasmus",
 23 : "Salarié", 
 24 : "Cadre", 
 25 : "Auto-entrepreneur", 
-26 : "Reprise d'étude"};
+26 : "Reprise d'étude",
+27 : "Mi-temps"};
 
 Situation = {
 1 : "Marié", 
@@ -247,4 +248,16 @@ Bac = {
 Status = {
 1 : "autonome",
 2 : "à charge"
+};
+
+Nationalité = {
+1 : "Français",
+2 : "Anglais",
+3 : "Allemand",
+4 : "Suisse",
+5 : "Américain",
+6 : "Espagnol",
+7 : "Portugais",
+8 : "Grec",
+9 : "Irelandais"
 };
