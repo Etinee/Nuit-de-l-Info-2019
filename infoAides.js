@@ -63,38 +63,26 @@ var aides =
 		"bourse":[100.90,166.90]		//[echelon]
 	},
 	3:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
+		"acro":"BFSS",
+		"desc":"Bourse Formations Sanitaires et Sociales, Parmi les formations Santé Social post-bac, certaines ouvrent droit aux bourses délivrées par le ministère chargé de l’enseignement supérieur et gérées par les CROUS.",
+		"profession":["Etudiant en Medecine","Etudiant Sage-femme","Etudiant Infirmier","Etudiant en Pharmacie","Etudiant en Kinésithérapie"]
 	},
 	4:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
+		"acro":"FAU",
+		"desc":"Le Fonds d’Aide d’Urgence est une aide à caractère exceptionnel, qui peut être attribuée par la Région à toute personne inscrite dans une formation sanitaire et sociale autorisée par le Conseil régional. Il permet de soutenir des étudiants confrontés à une situation d’urgence ou à des difficultés majeures liées à des évènements non prévisibles à l’entrée en formation, et risquant de ce fait d’interrompre leur parcours.\n-Le fonds d’aide d’urgence peut être mobilisé quand la situation de l’étudiant réunit quatre critères principaux :\n - caractère imprévu de la situation ;\n - situation financière précaire ;\n - risque d’interruption de formation ;\n - projet viable et réalisable",
+		"profession":["Etudiant en Medecine","Etudiant Sage-femme","Etudiant Infirmier","Etudiant en Pharmacie","Etudiant en Kinésithérapie"],
+		"bourse_max":3500
 	},
 	5:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
+		"acro":"Erasmus",
+		"desc":"Erasmus est un programme européen d'échanges d'étudiants qui vous permet d'étudier en Europe. Le réseau de contacts assure un bon accueil et un accompagnement quotidien dans vos études à l'étranger.",
+		"nationalité":["Anglais","Allemand","Suisse","Américain","Espagnol","Portugais","Grec","Irelandais"],
+		"bourse_min":150,
+		"bourse_max":300
 	},
 	6:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
-	},
-	7:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
-	},
-	8:{
-		"acro":"",
-		"desc":"",
+		"acro":"FSDIE Social",
+		"desc":"Le Fonds de Solidarité et de Développement des Initiatives Etudiantes de l’université d’Aix-Marseille, dans son volet social, peut venir en aide aux étudiants portant un projet en lien avec leurs études et connaissant des difficultés financières.",
 		"age_max":"",
 		"bac":""
 	}

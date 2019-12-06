@@ -198,6 +198,7 @@ Nom = [
 "Chaloux", 
 "de Brisay"];
 
+<<<<<<< HEAD
 Profession= [
 "Chômeur", 
 "Etudiant en Informatique", 
@@ -226,6 +227,36 @@ Profession= [
 "Auto-entrepreneur", 
 "Reprise d'étude",
 "Mi-temps"];
+=======
+Profession= {
+1 : "Chômeur", 
+2 : "Etudiant en Informatique", 
+3 : "Etudiant en Droit", 
+4 : "Etudiant en Chimie", 
+5 : "Etudiant en GEA", 
+6 : "Etudiant en Biologie", 
+7 : "Etudiant en Génie civile", 
+8 : "Etudiant en PACES", 
+9 : "Etudiant en Génie electrique", 
+10 : "Etudiant en Medecine", 
+11 : "Etudiant Sage femme", 
+12 : "Etudiant Infirmier", 
+13 : "Etudiant en Pharmacie", 
+14 : "Etudiant en Kinéssithérapie", 
+15 : "Etudiant en Psychologie", 
+16 : "Etudiant en Lettre", 
+17 : "Etudiant Science politique", 
+18 : "Etudiant en Géographie", 
+19 : "Etudiant en Architecture", 
+20 : "Etudiant en Alternance", 
+21 : "Année de césure", 
+22 : "Erasmus",
+23 : "Salarié", 
+24 : "Cadre", 
+25 : "Auto-entrepreneur", 
+26 : "Reprise d'étude",
+27 : "Mi-temps"};
+>>>>>>> 3845e9643100d91886d33cb8045f2ecc3cbf0c0b
 
 Situation = [
 "Marié", 
