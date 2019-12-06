@@ -57,6 +57,9 @@ body{
 	display: flex;
 	flex-direction: row;
 	max-width: 18%;
+	top: 100px;
+	left: 150px;
+	z-index: 2
 }
 
 #profile{
