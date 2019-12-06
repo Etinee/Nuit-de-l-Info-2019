@@ -15,6 +15,7 @@ body{
 	position: absolute;
 	top: 80px;
 	left: 80px;
+	border: 3px solid black;
 }
 
 
@@ -50,11 +51,11 @@ body{
 #personne{
 	position: relative;
 	width: 5%;
-	left: 40%;
+	left: 42%;
 	top: 8%;
 }
 #ID_card{
-	background-color : #222D32;
+	background-color : #1040FF;
 	border: 1px solid black
 	width:10%;
 	height:30%;
@@ -72,6 +73,7 @@ body{
 	width: 20%;
 	margin-right: 16px;
 	margin-bottom: 10px;
+	border: 3px solid black;
 }
 
 #profile{
@@ -79,7 +81,7 @@ body{
 }
 
 #formulaire{
-	background-color : #222D32;
+	background-color : #323D42;
 	border: 1px solid black
 	width:15%;
 	height:30%;
