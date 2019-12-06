@@ -49,3 +49,12 @@ body{
 	left: 35%;
 	top: 8%;
 }
+
+#ID_card{
+	display: flex;
+	flex-direction: row;
+}
+
+#profile{
+	width: 15%;
+}
