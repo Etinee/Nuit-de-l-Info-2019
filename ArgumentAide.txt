@@ -1,5 +1,5 @@
 Argument = {
-"1" : "J'ai eu X de moyenne au dernier semestre.",
+"1" : "J'ai eu 16 de moyenne au dernier semestre.",
 "2" : "Je suis orphelin.",
 "3" : "Mon poisson rouge est mort.",
 "4" : "Je suis étudiant.",

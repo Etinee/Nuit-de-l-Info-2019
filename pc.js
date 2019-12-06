@@ -37,7 +37,7 @@ class PC{
     	'}'+
 
     	'.screen{'+
-        'background-color: #000000;'+
+        'background-image: url("windows.jpg");'+
         'height: 125%;'+
         'width: 40%;'+
         'position : absolute;'+
@@ -72,7 +72,7 @@ class PC{
 
     	'}'+
     	'.case{'+
-        'background-color: yellow;'+
+        'background-image: url("fenetrepng.png");'+
         'margin:10px;'+
         'height:100%;'+
         'width:100%;'+

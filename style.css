@@ -21,7 +21,7 @@ body{
 
 
 #bureau{
-	background-color: #864C24;
+	background-image: url("bois.jpg");
 	height:30%;
 	width: 100%;
 	position: absolute;
@@ -29,7 +29,7 @@ body{
 }
 
 #mur_fond{
-	background-color: #A73D27;
+	background-image: url("texture-mur-brique.jpg");
 	height:30%;
 	width: 100%;
 	position: absolute;
