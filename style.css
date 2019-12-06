@@ -47,6 +47,12 @@ body{
 	top: 8%;
 }
 
+#personne{
+	position: relative;
+	width: 5%;
+	left: 40%;
+	top: 8%;
+}
 #ID_card{
 	background-color : #222D32;
 	border: 1px solid black
@@ -57,6 +63,9 @@ body{
 	display: flex;
 	flex-direction: row;
 	max-width: 18%;
+	top: 100px;
+	left: 150px;
+	z-index: 2
 }
 
 #profile{
