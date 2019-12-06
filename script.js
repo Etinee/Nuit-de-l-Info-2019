@@ -13,7 +13,7 @@ function avancer(personne){
     let larg = personne.width();
     let pos = personne.offset().left;
 
-    larg = larg * 1.02;
+    larg = larg * 1.03;
     pos = pos-1;
     personne.css({width: larg+"px", left :pos+"px"});
     var h = window.innerWidth;
