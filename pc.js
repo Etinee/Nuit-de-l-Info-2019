@@ -49,10 +49,10 @@ class PC{
 
     	'.screen{'+
         'background-color: #000000;'+
-        'height: 500px;'+
-        'width: 900px;'+
+        'height: 125%;'+
+        'width: 40%;'+
         'position : absolute;'+
-        'top: -100%;'+
+        'top: -80%;'+
         'right: 100px;'+
         'display:flex;'+
         'flex-direction: column;'+
@@ -60,9 +60,9 @@ class PC{
     	'}'+
       '.btn_power{'+
         'background-color : #000000;'+
-        'height:30px;'+
-        'width:900px;'+
-        'top:200px;'+
+        'height:10%;'+
+        'width:40%;'+
+        'top:45%;'+
         'right:100px;'+
         'position:absolute;'+
       '}'+
