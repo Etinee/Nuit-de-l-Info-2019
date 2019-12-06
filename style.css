@@ -35,15 +35,18 @@ body{
 	top : 0;
 }
 
+#block_porte{
+	text-align: center;
+	height: 100%;
+}
+
 #porte_close{
-	position: relative;
-	width: 10%;
+	height: 100%;
 	left: 40%;
 	top: 8%;
 }
 #porte_open{
-	position: relative;
-	width: 15%;
+	height: 100%;
 	left: 40%;
 	top: 8%;
 }
