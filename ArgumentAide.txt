@@ -48,4 +48,5 @@ Argument = {
 "47" : "Y a moyen de gratter un ticket restau?",
 "48" : "Je vous jure que si vous me donner les aides, je supprime mon dossier « HomeWork » de 500 Go.",
 "49" : "Dépechez vous, je suis pressé!",
-"50" : "Je mérite ces aises. j'ai fait l'effort de venir ici"}
+"50" : "Je mérite ces aises. j'ai fait l'effort de venir ici",
+"51" : "Gloire à Arstotzka!!!"}
