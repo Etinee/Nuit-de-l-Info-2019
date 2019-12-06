@@ -12,9 +12,6 @@ body{
 }
 
 .draggable{
-	background-color: blue;
-	height: 10%;
-	width: 15%;
 	position: absolute;
 	top: 80px;
 	left: 80px;
@@ -48,4 +45,13 @@ body{
 	width: 15%;
 	left: 40%;
 	top: 8%;
+}
+
+#formulaire{
+	background-color : #222D32;
+	border: 1px solid black
+	width:15%;
+	height:30%;
+	padding : 10px;
+	border-radius:15px;
 }
