@@ -49,4 +49,9 @@ Argument = {
 "48" : "Je vous jure que si vous me donner les aides, je supprime mon dossier « HomeWork » de 500 Go.",
 "49" : "Dépechez vous, je suis pressé!",
 "50" : "Je mérite ces aises. j'ai fait l'effort de venir ici",
-"51" : "Gloire à Arstotzka!!!"}
+"51" : "Gloire à Arstotzka!!!",
+"52" : "Pour économiser en eau et en gaz, j'ai pris un abonnement à la salle pour utiliser leurs douches.",
+"53" : "Grace aux aides, je vais pouvoir m'acheter un carton de meilleur qualité.",
+"54" : "Tu crois tu me fait peur?",
+"55" : "Je connais le directeur de l'établissement.",
+"56" : "Je suis malade..."}

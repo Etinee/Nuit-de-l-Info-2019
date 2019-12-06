@@ -8,7 +8,7 @@ function objectMove(th){
 }
 
 $( document ).ready(function() {
-	$( ".oui" ).draggable({ containment: "#exemple", scroll: false });
+	$( ".draggable" ).draggable({ containment: "#bureau", scroll: false });
 });
 /*
 jQuery.fn.draggit = function (el) {
