@@ -249,3 +249,15 @@ Status = {
 1 : "autonome",
 2 : "à charge"
 };
+
+Nationalité = {
+1 : "Français",
+2 : "Anglais",
+3 : "Allemand",
+4 : "Suisse",
+5 : "Américain",
+6 : "Espagnol",
+7 : "Portugais",
+8 : "Grec",
+9 : "Irelandais"
+};
