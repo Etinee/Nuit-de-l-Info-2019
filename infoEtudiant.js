@@ -212,20 +212,21 @@ Profession= {
 11 : "Etudiant Sage femme", 
 12 : "Etudiant Infirmier", 
 13 : "Etudiant en Pharmacie", 
-14 : "Etudiant en Kinéssithérapie", 
+14 : "Etudiant en Kinésithérapie", 
 15 : "Etudiant en Psychologie", 
 16 : "Etudiant en Lettre", 
 17 : "Etudiant Science politique", 
 18 : "Etudiant en Géographie", 
 19 : "Etudiant en Architecture", 
-20 : "Etudiant en Alternance", 
+20 : "Erasmus", 
 21 : "Année de césure", 
-22 : "Erasmus",
+22 : "Etudiant en Alternance",
 23 : "Salarié", 
 24 : "Cadre", 
 25 : "Auto-entrepreneur", 
 26 : "Reprise d'étude",
-27 : "Mi-temps"};
+27 : "Mi-temps",
+28 : "Chômeur" };
 
 Situation = [
 "Marié", 
@@ -250,7 +251,7 @@ Status = [
 "à charge"
 ];
 
-Nationalité = [
+Nationalite = [
 "Français",
 "Anglais",
 "Allemand",
