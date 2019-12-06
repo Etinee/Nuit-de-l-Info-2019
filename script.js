@@ -3,7 +3,7 @@ var intervalPerso;
 var characterID;
 var datasChara= [];
 var isEnter = false;
-
+var slideIsSlide = false;
 function closeDore(){
     $("#porte_close").attr("hidden",false);
     $("#porte_open").attr("hidden",true);
@@ -78,8 +78,16 @@ function testDemande(response){
     let personne = $("#personne");
     personne.attr("hidden",true);
     let isTrue;
+    slideIsSlide = false;
+             $( "#Yes_no" ).animate({
+            left:"+=360"
+        }, 500, "linear", function() {
+        });
+    intervalPerso = null;
+    $(".formulaire").empty();
+    $(".draggable").attr("hidden",true);
+    personne.css({width: "5%", left :"46%"});
 
-    var intervalPerso = null;
     switch( datasChara["demande"].acro) {
         case "ASAA":
         if(datasChara["age"]<=datasChara["demande"].age_max && datasChara["bac"]==0 && datasChara["status"] == "Autonome" && datasChara["salaire"] >= 250){
@@ -186,8 +194,10 @@ $( document ).ready(function() {
     })
 	$( ".draggable" ).draggable({ containment: "#bureau", scroll: false });
     $("#porte_close").click(function(){
-        if(intervalPerso!=null)
+        if(intervalPerso!=null && intervalPerso != false){
+            console.log(intervalPerso)
             return;
+        }
         $(this).attr("hidden",true);
         $("#porte_open").attr("hidden",false);
         var timeoutID = setTimeout(closeDore, 1000);
@@ -197,7 +207,6 @@ $( document ).ready(function() {
         personne.attr("src","characters/random"+characterID+".png");
         intervalPerso = setInterval(avancer, 50, personne);
     });
-    var slideIsSlide = false;
     $("#slide").click(function(){
         if(slideIsSlide != true && isEnter == true ){
             slideIsSlide = true;
