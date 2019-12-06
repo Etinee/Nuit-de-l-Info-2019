@@ -30,12 +30,7 @@ var aides =
 		"desc":"L’Aide Spécifique Annuelle est une aide financière accordée aux étudiants qui doivent faire face à des difficultés spécifiques durables et qui ne peuvent prétendre à l’attribution d’une  bourse de l’enseignement supérieur.\n-Pas de soutien matériel des parents\n-Salarié avec revenus annuels au moins égal à 3 SMIC",
 		"age_max":35,
 		"bac":true,
-<<<<<<< HEAD:data.js
-		"status":"autonome",
-
-=======
 		"status":"autonome"
->>>>>>> 6376f7c6aacc31c72cb3bb319ef70496cace7ca0:infoAides.js
 	},
 	2:{
 		"acro":"",
