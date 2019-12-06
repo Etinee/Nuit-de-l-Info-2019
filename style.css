@@ -15,6 +15,7 @@ body{
 	position: absolute;
 	top: 80px;
 	left: 80px;
+	border: 3px solid black;
 }
 
 
@@ -27,22 +28,25 @@ body{
 }
 
 #mur_fond{
-	background-color: #864C24;
+	background-color: #A73D27;
 	height:30%;
 	width: 100%;
 	position: absolute;
 	top : 0;
 }
 
+#block_porte{
+	text-align: center;
+	height: 100%;
+}
+
 #porte_close{
-	position: relative;
-	width: 10%;
+	height: 100%;
 	left: 40%;
 	top: 8%;
 }
 #porte_open{
-	position: relative;
-	width: 15%;
+	height: 100%;
 	left: 40%;
 	top: 8%;
 }
@@ -50,11 +54,11 @@ body{
 #personne{
 	position: relative;
 	width: 5%;
-	left: 40%;
+	left: 42%;
 	top: 8%;
 }
 #ID_card{
-	background-color : #222D32;
+	background-color : #1040FF;
 	border: 1px solid black
 	width:10%;
 	height:30%;
@@ -71,6 +75,7 @@ body{
 	width: 20%;
 	margin-right: 16px;
 	margin-bottom: 10px;
+<<<<<<< HEAD
 	object-fit: cover;
 }
 figure{
@@ -82,13 +87,16 @@ figure{
 figure img{
    display:block; /*remove inline-block spaces*/
    width:100%; /*make image streatch*/
+=======
+	border: 3px solid black;
+>>>>>>> 862574b033147f0dcf21631ded2f8db155232bc4
 }
 #profile{
 	width: 15%;
 }
 
 #formulaire{
-	background-color : #222D32;
+	background-color : #323D42;
 	border: 1px solid black
 	width:15%;
 	height:30%;

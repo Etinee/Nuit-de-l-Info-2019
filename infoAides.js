@@ -30,47 +30,59 @@ var aides =
 		"desc":"L’Aide Spécifique Annuelle est une aide financière accordée aux étudiants qui doivent faire face à des difficultés spécifiques durables et qui ne peuvent prétendre à l’attribution d’une  bourse de l’enseignement supérieur.\n-Pas de soutien matériel des parents\n-Salarié avec revenus annuels au moins égal à 3 SMIC",
 		"age_max":35,
 		"bac":true,
-		"status":"autonome"
+		"status":"autonome",
+		// et-ou
+		"profession":["Salarié","Cadre","Auto-entrepreneur","Etudiant en Alternance"],// sinon tout
+		// et
+		"revenus_min":250
 	},
 	2:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
+		"acro":"ASAP",
+		"desc":"Les Aides Spécifiques sont destinées à apporter une aide à l’étudiant qui rencontre des difficultés financières particulières.\nElle peut revêtir deux formes :\nsoit une aide ponctuelle pour des difficultés exceptionnelles et passagères,\nsoit une aide annuelle en cas de difficultés pérennes.\n-",
+		"age_max":35,
+		"bac":true,
+		"profession":["Etudiant en Informatique","Etudiant en Droit","Etudiant en Chimie","Etudiant en GEA","Etudiant en Biologie","Etudiant en Génie civile","Etudiant en PACES","Etudiant en Génie electrique","Etudiant en Medecine","Etudiant Sage femme","Etudiant Infirmier","Etudiant en Pharmacie","Etudiant en Kiné","Etudiant en Psychologie","Etudiant en Lettre","Etudiant Science politique","Etudiant en Géographie","Etudiant en Architecture","Etudiant en Alternance","Année de césure","Erasmus","Mi-temps"],
+		"echelon":[[33100,22500],		//[points de charge][echelon]
+				   [36760,25000],		//					  ^^^
+				   [40450,27500],		//				chercher revenu
+				   [44120,30000],
+				   [47800,32500],
+				   [51480,35010],
+				   [55150,37510],
+				   [58830,40010],
+				   [62510,42510],
+				   [66180,45000],
+				   [69860,47510],
+				   [73540,50010],
+				   [77210,52500],
+				   [80890,55000],
+				   [84560,57520],
+				   [88250,60010],
+				   [91920,62510],
+				   [95610,65010]],
+		"bourse":[100.90,166.90]		//[echelon]
 	},
 	3:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
+		"acro":"BFSS",
+		"desc":"Bourse Formations Sanitaires et Sociales, Parmi les formations Santé Social post-bac, certaines ouvrent droit aux bourses délivrées par le ministère chargé de l’enseignement supérieur et gérées par les CROUS.",
+		"profession":["Etudiant en Medecine","Etudiant Sage-femme","Etudiant Infirmier","Etudiant en Pharmacie","Etudiant en Kinésithérapie"]
 	},
 	4:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
+		"acro":"FAU",
+		"desc":"Le Fonds d’Aide d’Urgence est une aide à caractère exceptionnel, qui peut être attribuée par la Région à toute personne inscrite dans une formation sanitaire et sociale autorisée par le Conseil régional. Il permet de soutenir des étudiants confrontés à une situation d’urgence ou à des difficultés majeures liées à des évènements non prévisibles à l’entrée en formation, et risquant de ce fait d’interrompre leur parcours.\n-Le fonds d’aide d’urgence peut être mobilisé quand la situation de l’étudiant réunit quatre critères principaux :\n - caractère imprévu de la situation ;\n - situation financière précaire ;\n - risque d’interruption de formation ;\n - projet viable et réalisable",
+		"profession":["Etudiant en Medecine","Etudiant Sage-femme","Etudiant Infirmier","Etudiant en Pharmacie","Etudiant en Kinésithérapie"],
+		"bourse_max":3500
 	},
 	5:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
+		"acro":"Erasmus",
+		"desc":"Erasmus est un programme européen d'échanges d'étudiants qui vous permet d'étudier en Europe. Le réseau de contacts assure un bon accueil et un accompagnement quotidien dans vos études à l'étranger.",
+		"nationalité":["Anglais","Allemand","Suisse","Américain","Espagnol","Portugais","Grec","Irelandais"],
+		"bourse_min":150,
+		"bourse_max":300
 	},
 	6:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
-	},
-	7:{
-		"acro":"",
-		"desc":"",
-		"age_max":"",
-		"bac":""
-	},
-	8:{
-		"acro":"",
-		"desc":"",
+		"acro":"FSDIE Social",
+		"desc":"Le Fonds de Solidarité et de Développement des Initiatives Etudiantes de l’université d’Aix-Marseille, dans son volet social, peut venir en aide aux étudiants portant un projet en lien avec leurs études et connaissant des difficultés financières.",
 		"age_max":"",
 		"bac":""
 	}
