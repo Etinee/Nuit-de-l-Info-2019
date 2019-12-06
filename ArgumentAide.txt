@@ -44,4 +44,9 @@ Argument = {
 "43" : "Je suis pas à mi-temps mais je connais bien la troisième.",
 "44" : "Vue la taille du trou de la sécu, c'est pas moi qui vais l'aggraver.",
 "45" : "Macron, démission!",
-"46" : "Promis, j'irais à tous les amphi."}
+"46" : "Promis, j'irais à tous les amphi.",
+"47" : "Y a moyen de gratter un ticket restau?",
+"48" : "Je vous jure que si vous me donner les aides, je supprime mon dossier « HomeWork » de 500 Go.",
+"49" : "Dépechez vous, je suis pressé!",
+"50" : "Je mérite ces aises. j'ai fait l'effort de venir ici",
+"51" : "Gloire à Arstotzka!!!"}

@@ -1,14 +1,19 @@
-var test = 
+var aides = 
 {
-	"data": "salut",
-	"data2": "salut",
-	"data3": "salut",
-	"data4": "salut",
-	"data5": "salut",
-	"data6": "salut",
-	"data7": "salut",
-	"data8": "salut",
-	"data9": "salut"
+	0:{
+		"acro":"BCS",
+		"desc":"La Bourse d'enseignement supérieur sur Critères Sociaux est accordée à l'étudiant qui a des difficultés matérielles pour poursuivre des études supérieures. Elle complète l'aide de la famille et ne remplace pas l'obligation alimentaire à la charge des parents.\n-Avoir moins de 28 ans\n-Être titulaire du BAC\n-Basé sur les revenus du demandeur",
+		"age_max":28,
+		"bac":true,
+		"echelon":[]
+	1: ,
+	2: ,
+	3: ,
+	4: ,
+	5: ,
+	6: ,
+	7: ,
+	8: 
 };
 
-console.log(test);
+console.log(aides[1]);
