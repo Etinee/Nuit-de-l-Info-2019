@@ -10,5 +10,8 @@ $( document ).ready(function() {
         $(this).attr("hidden",true);
         $("#porte_open").attr("hidden",false);
         var timeoutID = setTimeout(closeDore, 1000);
+        $("#personne").attr("hidden",false);
+        $("#personne").attr("src","characters/random1.png");
     });
+
 });
