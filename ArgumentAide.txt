@@ -44,4 +44,17 @@ Argument = {
 "43" : "Je suis pas à mi-temps mais je connais bien la troisième.",
 "44" : "Vue la taille du trou de la sécu, c'est pas moi qui vais l'aggraver.",
 "45" : "Macron, démission!",
-"46" : "Promis, j'irais à tous les amphi."}
+"46" : "Promis, j'irais à tous les amphi.",
+"47" : "Y a moyen de gratter un ticket restau?",
+"48" : "Je vous jure que si vous me donner les aides, je supprime mon dossier « HomeWork » de 500 Go.",
+"49" : "Dépechez vous, je suis pressé!",
+"50" : "Je mérite ces aises. j'ai fait l'effort de venir ici",
+"51" : "Gloire à Arstotzka!!!",
+"52" : "Pour économiser en eau et en gaz, j'ai pris un abonnement à la salle pour utiliser leurs douches.",
+"53" : "Grace aux aides, je vais pouvoir m'acheter un carton de meilleur qualité.",
+"54" : "Tu crois tu me fait peur?",
+"55" : "Je connais le directeur de l'établissement.",
+"56" : "Je suis malade...",
+"57" : "Je vais vous coller un procés au cul si vous ne m'accordez rien.",
+"58" : "Comment je vais au afterwork si j'ai pas d'argent?",
+"59" : "Bonjour! Je suis gentil et j'aime l'argent."}

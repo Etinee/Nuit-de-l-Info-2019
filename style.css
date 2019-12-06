@@ -11,10 +11,20 @@ body{
 	padding: 0;
 }
 
-.oui{
-	background-color: red;
-	height: 3%;
-	width: 3%;
+.draggable{
+	background-color: blue;
+	height: 10%;
+	width: 15%;
 	position: absolute;
-	top: 10%;
+	top: 80px;
+	left: 80px;
+}
+
+
+#bureau{
+	background-color: #864C24;
+	height:30%;
+	width: 100%;
+	position: absolute;
+	top : 70%;
 }

@@ -2,7 +2,7 @@ var aides =
 {
 	0:{
 		"acro":"BCS",
-		"desc":"La Bourse d'enseignement supérieur sur Critères Sociaux est accordée à l'étudiant qui a des difficultés matérielles pour poursuivre des études supérieures. Elle complète l'aide de la famille et ne remplace pas l'obligation alimentaire à la charge des parents.\n-Avoir moins de 28 ans\n-Être titulaire du BAC",
+		"desc":"La Bourse d'enseignement supérieur sur Critères Sociaux est accordée à l'étudiant qui a des difficultés matérielles pour poursuivre des études supérieures. Elle complète l'aide de la famille et ne remplace pas l'obligation alimentaire à la charge des parents.\n-Avoir moins de 28 ans\n-Être titulaire d'un BAC français",
 		"age_max":28,
 		"bac":true,
 		"echelon":[[33100,22500,18190,16070,13990,11950,7540,250],		//[points de charge][echelon]
@@ -27,9 +27,10 @@ var aides =
 	},
 	1:{
 		"acro":"ASAA",
-		"desc":"L’Aide Spécifique Annuelle est une aide financière accordée aux étudiants qui doivent faire face à des difficultés spécifiques durables et qui ne peuvent prétendre à l’attribution d’une  bourse de l’enseignement supérieur.",
+		"desc":"L’Aide Spécifique Annuelle est une aide financière accordée aux étudiants qui doivent faire face à des difficultés spécifiques durables et qui ne peuvent prétendre à l’attribution d’une  bourse de l’enseignement supérieur.\n-Pas de soutien matériel des parents\n-Salarié avec revenus annuels au moins égal à 3 SMIC",
 		"age_max":35,
 		"bac":true,
+		"status":"autonome",
 		""
 	},
 	2:{
