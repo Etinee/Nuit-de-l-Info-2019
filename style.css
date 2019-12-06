@@ -50,10 +50,19 @@ body{
 #ID_card{
 	background-color : #222D32;
 	border: 1px solid black
-	width:15%;
+	width:10%;
 	height:30%;
 	padding : 10px;
 	border-radius:15px;
+	display: flex;
+	flex-direction: row;
+	max-width: 18%;
+}
+
+#profile{
+	width: 20%;
+	margin-right: 16px;
+	margin-bottom: 10px;
 }
 
 #profile{
