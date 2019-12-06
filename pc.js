@@ -24,17 +24,6 @@ class PC{
 
     				'</div>'+
     			'</div>'+
-    			'<div class="ligne trois">'+
-    				'<div class="case">'+
-
-    				'</div>'+
-    				'<div class="case">'+
-
-    				'</div>'+
-    				'<div class="case">'+
-
-    				'</div>'+
-    			'</div>'+
     	'</div>'+
     	'<div class="btn_power">'+
 
@@ -52,7 +41,7 @@ class PC{
         'height: 125%;'+
         'width: 40%;'+
         'position : absolute;'+
-        'top: -80%;'+
+        'top: -90%;'+
         'right: 100px;'+
         'display:flex;'+
         'flex-direction: column;'+
@@ -62,7 +51,7 @@ class PC{
         'background-color : #000000;'+
         'height:10%;'+
         'width:40%;'+
-        'top:45%;'+
+        'top:35%;'+
         'right:100px;'+
         'position:absolute;'+
       '}'+
