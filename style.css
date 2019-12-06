@@ -47,7 +47,7 @@ body{
 	top: 8%;
 }
 
-<<<<<<< HEAD
+
 #ID_card{
 	display: flex;
 	flex-direction: row;
@@ -56,7 +56,7 @@ body{
 #profile{
 	width: 15%;
 }
-=======
+
 #formulaire{
 	background-color : #222D32;
 	border: 1px solid black
@@ -65,4 +65,3 @@ body{
 	padding : 10px;
 	border-radius:15px;
 }
->>>>>>> 7e64c168325a65884ac06d25f77df11852d2fed7
