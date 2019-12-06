@@ -1,0 +1,6 @@
+Distance de résidence : [distanceRandom]
+Salaire parents : []
+Nombre d'enfants à charge : []
+Loyer : []
+Service militaire : [yes/no]
+Handicap : [yes/no]

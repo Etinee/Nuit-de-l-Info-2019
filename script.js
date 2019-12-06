@@ -8,9 +8,9 @@ function objectMove(th){
 }
 
 $( document ).ready(function() {
-    $("#exemple").draggit(".oui");
+	$( ".oui" ).draggable({ containment: "#exemple", scroll: false });
 });
-
+/*
 jQuery.fn.draggit = function (el) {
     var thisdiv = this;
     var thistarget = $(el);
@@ -70,3 +70,4 @@ jQuery.fn.draggit = function (el) {
 
     return this;
 } // end jQuery draggit function //
+*/
