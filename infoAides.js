@@ -81,4 +81,4 @@ var aides =
 	}
 };
 
-console.log(aides[1]);
+console.log(aides[0]["echelon"][15][40000]);
